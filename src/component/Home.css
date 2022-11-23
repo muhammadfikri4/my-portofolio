@@ -1,0 +1,62 @@
+@font-face {
+    font-family: segoeui;
+    src: url("font/Segoe\ UI\ Bold.ttf");
+}
+@font-face {
+    font-family: segoeuiTipis;
+    src: url("font/Segoe\ UI.ttf");
+}
+
+.home {
+    margin-top: 120px;
+}
+.hai, .meee {
+    color: #11358f;
+    font-family: "segoeui";
+    font-size: 55px;
+}
+
+.profesi {
+    font-size: 16px;
+    font-family: "segoeuiTipis";
+    
+}
+.name {
+    color: orangered;
+}
+.vectorAnimated {
+    width: 400px;
+    border-bottom-left-radius: 50%;
+}
+.talk {
+    border: none;
+    border-radius: 20px;
+    padding: 10px 25px 10px 25px;
+    background-color: #11358f;
+    text-decoration: none;
+}
+.talk:hover {
+    opacity: .7;
+}
+
+@media screen and (max-width: 767px) {
+    .kolom-1 {
+        display: flex;
+    }
+    .kolom-2 {
+        display: flex;
+    }
+    .baris {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .name {
+        font-size: 38px;
+    }
+    .hai, .meee {
+        font-size: 38px;
+    }
+    .profesi {
+        font-size: 14px;
+    }
+}

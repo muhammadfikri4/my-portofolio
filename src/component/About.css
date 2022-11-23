@@ -1,0 +1,177 @@
+@font-face {
+    font-family: "segoeuiitalic";
+    src: url("font/Segoe\ UI\ Bold.ttf");
+}
+body {
+    scroll-behavior: smooth;
+}
+
+.about {
+    margin-top: 120px;
+}
+.myPict {
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+.namaa {
+    font-family: "segoeui";
+    color: #11358f;
+    font-size: 35px;
+}
+.posisi {
+    color: grey;
+    font-family: "segoeuiTipis";
+}
+ .skill {
+    font-family: "segoeui";
+    color: white;
+    background-color: #11358f;
+    width: 100%;
+    padding:5px;
+    box-sizing: border-box;
+ }
+.jml {
+    color: #11358f;
+    font-size: 100px;
+    font-weight: bold;
+    margin-left: -5px;
+}
+.tech {
+    color: #11358f;
+    font-weight: bold;
+    font-family: "segoeui";
+    margin-top: -15px;
+    margin-left: -5px;
+}
+.spesifik {
+    font-size: 20px;
+
+}
+.card {
+    width: 160px;
+    height: 150px;
+    border-radius: 5px;
+    /* background-color: rgba(120, 119, 117, .3); */
+    background-color: #ddd;
+}
+#html, #css, #bootstrap, #js, #react, #nodeJS {
+    color: #11358f;
+    font-weight: bold;
+    font-size: 19px;
+}
+.viewMore {
+    color: rgba(0,0,0, .7);
+    cursor: pointer;
+}
+/* html style awal*/
+.htCard:hover {
+    background-color: #11358f;
+}
+.htCard:hover #html{
+    color: #fff;
+}
+.htCard:hover .viewMore{
+    color: #fff;
+}
+/* html style akhir */
+
+/* css style awal*/
+.csCard:hover {
+    background-color: #11358f;
+}
+.csCard:hover #css{
+    color: #fff;
+}
+.csCard:hover .viewMore{
+    color: #fff;
+}
+/* css style akhir */
+
+/* bootstrap style awal*/
+.bsCard:hover {
+    background-color: #11358f;
+}
+.bsCard:hover #bootstrap{
+    color: #fff;
+}
+.bsCard:hover .viewMore{
+    color: #fff;
+}
+/* bootstrap style akhir */
+
+/* javascript style awal*/
+.jsCard:hover {
+    background-color: #11358f;
+}
+.jsCard:hover #js{
+    color: #fff;
+}
+.jsCard:hover .viewMore{
+    color: #fff;
+}
+/* javascript style akhir */
+
+/* react style awal*/
+.rctCard:hover {
+    background-color: #11358f;
+}
+.rctCard:hover #react{
+    color: #fff;
+}
+.rctCard:hover .viewMore{
+    color: #fff;
+}
+/* react style akhir */
+
+/* nodeJS style awal*/
+.ndCard:hover {
+    background-color: #11358f;
+}
+.ndCard:hover #nodeJS{
+    color: #fff;
+}
+.ndCard:hover .viewMore{
+    color: #fff;
+}
+/* nodeJS style akhir */
+
+ div .htmlCircle, div .cssCircle, div .bootstrapCircle, div .jsCircle, div .reactCircle, div .nodeJSCircle {
+    font-family: "segoeui";
+    font-size: 16px;
+    margin-top: 5px;
+    
+}
+/*
+div .bootstrapCircle {
+    font-size: 26px;
+} */
+
+@media screen and (max-width: 575px) {
+        .card {
+            width: 210px;
+        }
+        /* .htmlProg, .cssProg, .bsProg, .jsProg {
+            margin-left: -10px;
+        }
+        .bsProg, .jsProg {
+            margin-top: -50px;
+        } */
+        /* div .htmlCircle, div .cssCircle, div .bootstrapCircle, div .jsCircle {
+
+        } */
+}
+@media screen and (max-width: 420px) {
+    /* div .htmlCircle, div .cssCircle, div .bootstrapCircle, div .jsCircle, div .reactCircle {
+        margin-left: 15px;
+    } */
+    .cont-prgs {
+        margin-right: -20px;
+    }
+}
+@media screen and (max-width: 320px) {
+    
+    .card {
+        width: 190px;
+    }
+}

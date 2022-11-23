@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "kaushanScript";
+    src: url("font/KaushanScript-Regular.otf");
+}
+.logoBrand {
+    width: 80px;
+}
+.bodyColorLight {
+    background-color: #e3f2fd;
+}
+/* .hamburger {
+    color: white;
+} */
+.nav-link {
+    color: #4968b8;
+    font-weight: bold;
+    transition: .3s;
+}
+/* .navbar-nav {
+    gap: 20px;
+} */
+ul li a.active {
+    font-weight: bold;
+    background-color: #4968b8;
+    border-radius: 5px;
+}

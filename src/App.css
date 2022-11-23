@@ -1,0 +1,84 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+} */
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* untuk text */
+.textColorDark {
+  color: #444;
+}
+.textColorLight {
+  color: #bbb;
+}
+
+/* untuk text dibagian spesifik */
+.textColorSpekL{
+  color: #fff;
+}
+.textColorSpekD{
+  color: #444;
+}
+
+/* untuk body atau nav */
+.bodyColorDark{
+  background-color: #222;
+}
+.bodyColorLight{
+  background-color: #e3f2fd;
+}
+@font-face {
+  font-family: 'segoeui';
+  src: url("component/font/Segoe\ UI\ Bold.ttf");
+}
+@font-face {
+  font-family: 'segoeuinormal';
+  src: url("component/font/Segoe\ UI.ttf");
+}
+body {
+  overflow-x: hidden;
+  background-color: #e3f2fd;
+  /* background-image: linear-gradient(to left bottom, #e3f2fd, #fff); */
+  /* background-image: url('component/img/polkadot.jpg'); */
+  /* background-image: url("component/img/vcdot.jpg"); */
+  /* background-image: linear-gradient(to left bottom, #fff, #4968b8 ); */
+
+  /* background-size: cover; */
+}
+
+
+
+
+

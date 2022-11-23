@@ -1,0 +1,75 @@
+.contact {
+    margin-top: 120px;
+    
+    
+}
+.cont-form {
+    width: 60%;
+    padding: 20px;
+    background-color: #eee;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+input[type=email], input[type=name], input[type=tel], textarea {
+    width: 100%;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+input[type=email]:focus, input[type=name]:focus, input[type=tel]:focus, textarea:focus{
+    border: 1px solid #4968b8;
+    outline: #4968b8;
+    box-shadow: 0 0 3px #4968b8;
+}
+
+.headerLogo img {
+    display: block;
+    margin: auto;
+    margin-top: -50px;
+}
+
+.hlpTxt {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.submit {
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.submit:hover {
+    opacity: .7;
+}
+.komen {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 150px;
+}
+.emailInput:active {
+    border: 2px solid red;
+}
+.text-area {
+    width: 100%;
+    height: 100px;
+}
+
+.modal-backdrop {
+    display: none;
+}
+.modal {
+    margin-top: 65px;
+}
+
+@media screen and (max-width: 450px) {
+    .cont-form {
+        width: 95%;
+    }
+}
